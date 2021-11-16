@@ -1,0 +1,95 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> Astra widget social profiles 2 widget title **/
+#astra-widget-social-profiles-2 > .widget-title {
+	color: rgb(255, 255, 255) !important;
+}
+
+/** Geral >> Astra widget social profiles 2 **/
+#astra-widget-social-profiles-2 {
+	font-weight: bold !important;
+	word-spacing: 6px !important;
+	letter-spacing: 1px !important;
+}
+
+
+/*= Menu principal ============ */
+
+/** Menu principal >> IniciarMenu **/
+#ast-desktop-header .ast-custom-button {
+	font-weight: bold !important;
+	text-align: center !important;
+	text-indent: 0 !important;
+	word-spacing: 0 !important;
+	width: 90px !important;
+	height: 36px !important;
+}
+
+
+/*( Desktop grande )*/
+@media (min-width: 1200px) {
+
+	/*= Rodapé =================== */
+
+	/** Rodapé >> IconesRedeSocial **/
+	#astra-widget-social-profiles-2 ul {
+	margin-top: -25px !important;
+}
+
+	/** Rodapé >> CopyRodape **/
+	#colophon > .ast-builder-grid-row-tablet-full {
+	padding-top: 10px !important;
+	padding-bottom: 5px !important;
+}
+
+
+	/*= Menu principal ============ */
+
+	/** Menu principal >> Noticias **/
+	#menu-item-33 > .menu-link {
+	color: rgb(0, 0, 0) !important;
+	font-size: 16px !important;
+	line-height: 16px !important;
+	font-weight: bolder !important;
+	background-color: rgb(255, 233, 0) !important;
+	height: 35px !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+}
+
+
+}
+
+
+/*( Celular )*/
+@media (max-width: 480px) {
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> TituloPrincipal **/
+	.uagb-block-a7331703 .uagb-ifb-title-prefix {
+	font-size: 35px !important;
+	line-height: 50px !important;
+}
+
+	/** Conteúdo >> Imagem1 **/
+	#post-10 .wp-image-77 {
+	width: 300px !important;
+	max-width: 300px !important;
+	margin-right: 0 !important;
+	margin-left: 70px !important;
+}
+
+	/** Conteúdo >> imagem2 **/
+	#post-10 .wp-image-78 {
+	width: 300px !important;
+	max-width: 300px !important;
+	margin-left: 70px !important;
+}
+
+
+}
+
